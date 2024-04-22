@@ -26,7 +26,7 @@ public class FrogSimulation
 			else if(distance >= goalDistance)
 				return true;
 		}
-
+		return false;
 	}
 	
 	public double runSimulations(int num)
